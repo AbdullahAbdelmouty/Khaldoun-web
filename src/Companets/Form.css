@@ -1,0 +1,16 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: calc(3vw);
+    padding: calc(4vw + 15px) 0;
+}
+.nextBack{
+    display: flex;
+    gap: 4vw;
+}
+.formTitle{
+    color: #C9A17D;
+    font-size: calc(10px + 2vw);
+    text-align: center;
+}

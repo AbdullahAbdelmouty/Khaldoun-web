@@ -1,0 +1,9 @@
+.contactContainer{
+    /* width: 27vw; */
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+/* .textareaContact{
+    width: 18vw;
+} */

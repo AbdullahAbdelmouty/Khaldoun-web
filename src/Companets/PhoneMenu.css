@@ -1,0 +1,80 @@
+.menuDrop{
+    display: flex;
+    grid-gap: 15px;
+    gap: 15px;
+    list-style: none;
+    position: absolute;
+    top: 146%;
+    right: 6%;
+    /* left: -64%; */
+    opacity: 0;
+    height: -2%;
+    width: 0%;
+    padding: 34px;
+    background-color: #c9a17d82;
+    flex-direction: column;
+    /* display: none; */
+    transition: all 500ms ease-in-out;
+}
+.menuDropActive{
+    display: flex;
+    grid-gap: 15px;
+    gap: 15px;
+    list-style: none;
+    position: absolute;
+    top: 220%;
+    right: 6%;
+    /* left: -64%; */
+    opacity: 1;
+    height: -2%;
+    width: 75%;
+    padding: calc(1vw + 6px);
+    background-color: #c9a17d82;
+    flex-direction: column;
+    /* display: none; */
+    transition: all 500ms ease-in-out;
+}
+.menuDrop li:not(:last-child),.menuDropActive  li:not(:last-child){
+    margin-right: 3vw;
+}
+.menuDrop li a,.menuDropActive li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.menuDrop li:hover,.menuDropActive li:hover{
+    color: blue;
+}
+.menuDropActive li a:hover{
+    color: #26293a;
+}
+.menuDrop-bar{
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+}
+.cross{
+    position: absolute;
+    right: 7%;
+    top: 160%;
+    opacity: 0;
+    z-index: 111;
+    font-size: 15px;
+    transition: right 500ms ease-in-out;
+}
+.crossActive{
+    position: absolute;
+    right: 7%;
+    top: 234%;
+    opacity: 1;
+    z-index: 111;
+    font-size: 15px;
+    transition: all 500ms ease-in-out;
+}
+.barBtnRotate{
+    transition: transform 200ms ease-in-out;
+}
+.barBtnRotate:hover{
+    transform:rotate(180deg);
+}

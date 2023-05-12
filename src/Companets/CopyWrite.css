@@ -1,0 +1,13 @@
+.copyWrite{
+    background-color: #C9A17D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: calc(1vw + 3px);
+    font-size: calc(1vw + 5px);
+    gap: calc(0.5vw);
+    color: white;
+}
+.copyWrite p{
+    margin: 0;
+}

@@ -1,0 +1,31 @@
+.questionInput{
+    width: 17vw;
+}
+label.labelUpload input[type="file"] {
+    position: absolute;
+    top: -1000px;
+  }
+.labelUpload {
+    cursor: pointer;
+    border: 0;
+    margin: 0;
+    display: inline-block;
+    padding: calc(1vw + 1px);
+    width: fit-content;
+    border: none;
+    background-color: #C9A17D;
+    color: #21294A;
+  }
+  .labelUpload:hover {
+    color: #C9A17D;
+    background-color: #21294A;
+  }
+  .labelUpload:active {
+    background: #21294A;
+  }
+  /* .labelUpload:invalid + span {
+    color: #000000;
+  }
+  .labelUpload:valid + span {
+    color: #ffffff;
+  } */

@@ -1,0 +1,23 @@
+/* .aboutText{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    text-align: center;
+} */
+.aboutContainer{
+    width: calc(50vw + 116px);
+    height: fit-content;
+    padding: calc(1vw + 20px);
+    background: #21294A;
+    position: absolute;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutContainer p{
+    color: white;
+    font-size: calc(1vw + 5px)
+}
+#aboutBtn{
+    width: fit-content;
+}

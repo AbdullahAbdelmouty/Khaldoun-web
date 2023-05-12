@@ -1,0 +1,16 @@
+.questionEles{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+.titleQuestion{
+    text-align: center;
+    margin: 0;
+    padding: 2vw;
+}
+.questionContainer{
+    background-color: antiquewhite;
+}
+.question h3{
+    font-size: calc(1.2vw + 10px);
+}

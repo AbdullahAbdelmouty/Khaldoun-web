@@ -1,0 +1,46 @@
+.footerContainer{
+    padding: 3vw;
+    display: flex;
+    align-items: center;
+    background-color: #21294A;
+    flex-direction: column;
+    gap: 5vw;
+}
+.pages{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    grid-gap: 0.7vw;
+    grid-gap: 0.7vw;
+    gap: 0.7vw;
+    color: white;
+    align-items: center;
+    padding: 0;
+}
+.pages li{
+    margin-right: 0;
+}
+.pages li a{
+    text-decoration: none;
+    color: #ccc;
+}
+.methodContant{
+    display: flex;
+    align-items: center;
+}
+.h2Footer{
+    color: #C9A17D;
+    font-size: 25px;
+    padding-top: 25px;
+}
+.socialIcons{
+    color: white;
+
+}
+.paymentIcons{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 80px;
+    align-items: center;
+}

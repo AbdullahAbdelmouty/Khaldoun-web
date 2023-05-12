@@ -1,0 +1,33 @@
+.questionUl{
+    list-style: none;
+    color: #C9A17D;
+    padding: 0;
+    font-size: calc(1vw + 5px);
+}
+.customeInput{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.h4Question{
+    color: white;
+    text-align: center;
+    font-size: calc(1vw + 10px);
+    margin: 0;
+    padding-top: calc(2vw + 14px);
+}
+.questionCustom{
+    display: flex;
+    flex-direction: column;
+    background-color: #21294A;
+    grid-gap: calc(3vw);
+    gap: calc(3vw);
+    /* height: calc(15vw + 40px); */
+    width: calc(59vw + 144px);
+    justify-content: center;
+}
+.questionInputCustom{
+    width: 17vw;
+    height: calc(4.3vw + 9px);
+    text-align: center;
+}

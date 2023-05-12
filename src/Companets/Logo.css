@@ -1,0 +1,17 @@
+.logo{
+    width: calc(4vw + 10px);
+    height: calc(4vw + 10px);
+}
+
+@media (max-width: 1000px) { 
+    .logo{
+        width: 7vw;
+        height: 6.5vw;
+    }
+}
+@media (max-width: 500px) { 
+    .logo{
+        width: 9vw;
+        height: 8.5vw;
+    }
+}

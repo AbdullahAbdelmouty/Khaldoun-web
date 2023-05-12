@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+.pageTwoDesign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttonCustom {
+    width: calc(12vw + 34px);
+    font-size: calc(1vw + 6px);
+    height: calc(3vw + 15px);
+    position: relative;
+    padding: calc(1vw + 1px);
+    border: none;
+    background-color: #21294A;
+    color: #C9A17D;
+}
+
+.buttonCustom label,
+.buttonCustom input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.buttonCustom input[type="radio"] {
+    opacity: 0;
+    z-index: 100;
+}
+
+.buttonCustom input[type="radio"]:checked + label {
+    background: #C9A17D;
+    color: #21294A;
+}
+
+.buttonCustom label {
+    cursor: pointer;
+    z-index: 90;
+    line-height: 1.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerImg{
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+}
+.panel{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-radius: 50px; */
+    height: 80vh;
+    color: white;
+    margin: 10px;
+    position: relative;
+    flex: 0.1;
+    transition: all 500ms ease-in-out;
+}
+.panel h3{
+    font-size: 24px;
+    padding: 20px;
+    position: absolute;
+    background-color: #C9A17D;
+    margin: 0;
+    opacity: 0;
+}
+.panel.active{
+    flex: 5;
+}
+.panel.hover{
+    flex: 0.2;
+}
+.panel.active h3{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.3s;
+}
+@media(max-width: 480px){
+    .containerImg{
+        width: 100vw;
+    }
+    .panel:nth-of-type(4),:nth-of-type(5){
+        display: none;
+    }
+}
